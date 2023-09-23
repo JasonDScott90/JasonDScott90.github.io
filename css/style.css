@@ -8,11 +8,11 @@ body{
     background: #080808;
     columns: #fff;
 }
-#header{
+body{
     width: 100%;
     height: 93vh;
     
-    background-image: url(images/background.jpg);
+    background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
 }

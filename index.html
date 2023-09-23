@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasons Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/16b0369fd5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header"></div>
+        <div class="container">
+            <nav>
+                <h1>Jason Scott's Portfolio</h1>>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_8432.jpg" alt="profile image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my Webpage!  I'm a passionate computer enthusiast who has been captivated by technology since my early encounters with Windows XP. Building my first gaming computer before the age of 20 ignited my curiosity and set me on a path of exploration.
+
+                        Throughout my career, I've embraced diverse challenges and cultivated a positive outlook that has driven my success. However, I recently felt the need for something more fulfilling. Given the constant encouragement I've received to pursue a career in computers, I decided to make a change.
+                        
+                        In the spring of 2023, I took the initiative to join Tech Elevator's Java coding bootcamp. Throughout the program, I found great satisfaction in collaborative work and problem-solving through paired programming. It has been an incredible journey, and I look forward to forging new connections, continuous growth, and ongoing learning.
+                        
+                        I'm excited to connect with professionals in the industry and explore opportunities where I can contribute my technical skills and dedication to excellence. Let's connect and embark on this exciting journey together!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Devloping Websites</li>
+                            <li><span>PostgreSQL</span><br>Using pgAdmin</li>
+                            <li><span>Spring Boot</span><br>Develop web application with Spring MVC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2015 – PRESENT</span><br>New Jersey Department of Corrections</li>
+                            <li><span>2010 – 2015</span><br>Philcorr LLC</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>April 2023 – December 2023</span><br>Tech Elevator</li>
+                        <li><span>2008 – 2010</span><br>Cumberland County College</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <!-----------------services------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro totam hic molestiae. Delectus nostrum veritatis, odit assumenda saepe aliquid inventore nam, facilis modi tempora similique explicabo magnam, quidem libero officia!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Databases</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro totam hic molestiae. Delectus nostrum veritatis, odit assumenda saepe aliquid inventore nam, facilis modi tempora similique explicabo magnam, quidem libero officia!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro totam hic molestiae. Delectus nostrum veritatis, odit assumenda saepe aliquid inventore nam, facilis modi tempora similique explicabo magnam, quidem libero officia!</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------portfolio------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/code-1076536_1280.jpg" alt="placeholder1">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae ullam facilis odio adipisci iure eius quas placeat, ipsam natus, ad ipsa? Numquam illum cum, vel soluta eaque voluptate magnam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/laptop-2620118_1280.jpg" alt="placeholder2">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae ullam facilis odio adipisci iure eius quas placeat, ipsam natus, ad ipsa? Numquam illum cum, vel soluta eaque voluptate magnam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/workspace-2443050_1280.jpg" alt="placeholder3">
+                    <div class="layer">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae ullam facilis odio adipisci iure eius quas placeat, ipsam natus, ad ipsa? Numquam illum cum, vel soluta eaque voluptate magnam.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!------------------contact------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>856-899-9339</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/jason.scott.125760/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/jasondscott90"><i class="fa-brands fa-twitter-square"></i></i></a>
+                        <a href="https://www.instagram.com/jason.d.scott/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/jasondscott90/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <a href="https://github.com/JasonDScott90"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
